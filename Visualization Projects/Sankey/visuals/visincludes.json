@@ -1,0 +1,14 @@
+{
+    "data": {
+        "Sankey": {
+            "visualization": "Sankey",
+            "alias": "",
+            "commit": ""
+        },
+        "HeatMap": { 
+        	"visualization": "HeatMap", 
+        	"alias": "", 
+        	"commit": ""
+        }
+    }
+}

@@ -1,0 +1,61 @@
+body {
+	font-family: "open sans";
+	font-size: 15px;
+}
+
+.large {
+	width: calc(1890px - 15px);
+}
+
+.medium {
+	width: calc(1360px - 15px);
+}
+
+.small {
+	width: calc(800px - 15px);
+}
+
+.box {
+	border: 1px solid #ccc;
+	margin: 15px 0px;
+}
+
+.box p {
+	padding: 0px 10px;
+}
+
+.box-header h3 {
+	font-family: 'open sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	background-color: rgb(39, 38, 38);
+	color: #fff;
+	padding: 5px 10px;
+	margin: 0px;
+}
+
+.box-content {
+	overflow: hidden;
+}
+.container {
+	background: #fff;
+	margin-bottom: 24px;
+	*zoom: 1;
+}
+
+
+#component-node-color-legend02 {
+	margin-left: -35px;
+}
+
+#component-node-color-legend01 {
+	margin-left: -40px;
+}
+
+.description {
+	width: 85%;
+	margin-left: 20px;
+}
+
+.description p {
+}

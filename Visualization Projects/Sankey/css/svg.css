@@ -1,0 +1,156 @@
+/* ----- Axis Styles ------ */
+
+.wvf-axis text {
+	font: 10px sans-serif;
+}
+
+.wvf-axis path {
+	stroke-dasharray:5,5;
+	fill: none;
+	stroke: #666;
+	shape-rendering: crispEdges;
+}
+
+.wvf-axis line {
+
+}
+
+/* ---- Node Styles ---- */
+
+.wvf-node selected {
+}
+
+.wvf-node deselected {
+	stroke-width: .2;
+	stroke: #444 !important;
+	cursor: pointer;
+	fill: lightgrey;
+	}
+
+.wvf-node focused {
+	stroke-width:3;
+}
+
+/* ---- Labels ----- */
+
+
+.wvf-label selected {
+
+}
+
+.wvf-label deselected {
+
+}
+
+.wvf-label focused {
+
+}
+
+/* ---- Edge Styles ---- */
+
+.wvf-edge {
+	fill:none;
+	stroke:lightgrey;
+	opacity:.3;
+}
+/*TODO: Match the rest with this.*/
+.wvf-edge.selected {
+	stroke:#777;
+	opacity:.8;
+}
+
+.wvf-edge deselected {
+
+} 
+
+.wvf-edge focused {
+
+
+}
+
+/* --- Rectangle Styles ---- */
+
+.wvf-rect selected {
+
+}
+
+.wvf-rect deselected {
+
+}
+
+.wvf-rect focused {
+
+}
+
+/* --- Path Styles  ----- */
+.wvf-path selected {
+
+}
+
+.wvf-path deselected {
+
+}
+
+.wvf-path focused {
+
+}
+
+
+
+
+
+.Male rect {
+	fill: #a1d76a !important;
+}
+
+.Female rect {
+	fill: #e9a3c9 !important;
+}
+
+rect {
+	fill: lightgrey;
+}
+
+[class*=" IVMOOC-"] rect {
+	fill: #998ec3 !important;
+}
+
+[class*=" S637-"] rect {
+	fill: #298484 !important;
+}
+
+[class*=" High"] rect {
+	fill: #d73027 !important;
+}
+
+[class*=" College"] rect {
+	fill: #fc8d59 !important;
+}
+
+[class*=" Graduate"] rect {
+	fill: #e0f3f8 !important;
+}
+
+[class*=" Ph"] rect {
+	fill: #4575b4 !important;
+}
+
+[class*="Z637"] rect {
+	fill: #B48924 !important;
+}
+
+
+.l {
+	letter-spacing: 1px !important;
+	color: #555;
+	cursor: pointer;
+	text-shadow: 0 2px 3px rgba(255, 255, 255, .6);
+}
+
+
+/*Smaller labels (text)*/
+
+.l2 {
+	color: #555;
+	cursor: pointer;
+}
